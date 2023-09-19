@@ -1,0 +1,36 @@
+body,
+html {
+  overflow-x: hidden;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: ew-resize;
+  background: #fa674d;
+  border-radius: 50%;
+}
+
+input[type="range"]:disabled::-webkit-slider-thumb {
+  background: #7f7f7f;
+}
+
+input.blue[type="range"]::-webkit-slider-thumb {
+  background: #ffffff;
+  border: 2px solid #1b214d;
+}
+
+input.gray[type="range"]::-webkit-slider-thumb {
+  background: #ffffff;
+  border: 2px solid #bababa;
+}
+
+input[type="range"]:disabled::-webkit-slider-thumb {
+  background: #7f7f7f;
+}
